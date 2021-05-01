@@ -1,4 +1,4 @@
-def deployer(){
+def deploy(){
     node {
           stage("Checkout SCM"){
         timestamps {
